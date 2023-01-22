@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/61b03c479c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    @media screen and (max-width: 576px) {
+      .media {
+        width: 100% !important;
+        margin: 0% !important;
+      }
+      .medias {
+        display: flex;
+        flex-direction: column !important;
+      }
+    }
+  </style>
+  <body>
+    <!-- head  -->
+    <header>
+      <!-- nav section -->
+      <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand fs-1 fw-bold" href="#">
+              <span class="text-info-emphasis">Rave</span
+              ><span class="text-warning">al</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-info-emphasis"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-info-emphasis" href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle active text-info-emphasis"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Service
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-info-emphasis" href="#"
+                    >Log in</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </nav>
+      <!-- banner section -->
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="
+                background-image: url('./image/carousel/1.jpg');
+                height: 80vh;
+              "
+            >
+              <div class="text-center text-info-emphasis">
+                <h2 class="display-2 fw-bold">
+                  Ride-on <span class="text-warning">R15 V4 </span> with <br />
+                  Smile
+                </h2>
+                <p class="w-50 mx-auto">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <div class="text-center d-flex justify-content-center gap-3">
+                  <button
+                    class="btn btn-info text-light fs-5 fw-semibold px-3 py-2"
+                  >
+                    Get Started
+                  </button>
+                  <button
+                    class="btn btn-warning text-light fs-5 fw-semibold px-3 py-2"
+                  >
+                    Our Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="
+                background-image: url('./image/carousel/1.jpg');
+                height: 80vh;
+              "
+            >
+              <div class="text-center text-info-emphasis">
+                <h2 class="display-2 fw-bold">
+                  Ride-on <span class="text-warning">R15 V4 </span> with <br />
+                  Smile
+                </h2>
+                <p class="w-50 mx-auto">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <div class="text-center d-flex justify-content-center gap-3">
+                  <button
+                    class="btn btn-info text-light fs-5 fw-semibold px-3 py-2"
+                  >
+                    Get Started
+                  </button>
+                  <button
+                    class="btn btn-warning text-light fs-5 fw-semibold px-3 py-2"
+                  >
+                    Our Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="
+                background-image: url('./image/carousel/1.jpg');
+                height: 80vh;
+              "
+            >
+              <div class="text-center text-info-emphasis">
+                <h2 class="display-2 fw-bold">
+                  Ride-on <span class="text-warning">R15 V4 </span> with <br />
+                  Smile
+                </h2>
+                <p class="w-50 mx-auto">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+                <div class="text-center d-flex justify-content-center gap-3">
+                  <button
+                    class="btn btn-info text-light fs-5 fw-semibold px-3 py-2"
+                  >
+                    Get Started
+                  </button>
+                  <button
+                    class="btn btn-warning text-light fs-5 fw-semibold px-3 py-2"
+                  >
+                    Our Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <section class="about container my-5 py-5">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <img class="w-100" src="./image/about-img.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6 text-info-emphasis">
+            <h2 class="fs-3 fw-bold">Who are You</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              culpa.
+            </p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, sapiente!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, sapiente!
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestias, sapiente!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h2 class="fs-1 fw-bold text-info-emphasis">Services</h2>
+        <p class="w-50">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
+          commodi tempora! In ratione enim quaerat iste, porro debitis id error
+          dignissimos. Alias voluptates dolores consequuntur. Modi ipsam
+          dignissimos nostrum consectetur!
+        </p>
+        <div class="row g-3">
+          <div
+            class="col-12 col-md-6 shadow-lg p-3 ms-5 media"
+            style="width: 45%"
+          >
+            <div class="d-flex align-items-center medias">
+              <a href=""
+                ><i class="fa-solid text-info-emphasis fa-brain fa-3x"></i
+              ></a>
+              <div class="ms-4">
+                <h2>Digital transform</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Necessitatibus et illum fuga, quae iure quos reprehenderit
+                  deleniti fugit nulla facere voluptates omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 shadow-lg p-3 ms-5 media"
+            style="width: 45%"
+          >
+            <div class="d-flex medias align-items-center">
+              <a href=""
+                ><i class="fa-solid text-info-emphasis fa-brain fa-3x"></i
+              ></a>
+              <div class="ms-4">
+                <h2>Digital transform</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Necessitatibus et illum fuga, quae iure quos reprehenderit
+                  deleniti fugit nulla facere voluptates omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 shadow-lg p-3 ms-5 media"
+            style="width: 45%"
+          >
+            <div class="d-flex medias align-items-center">
+              <a href=""
+                ><i class="fa-solid text-info-emphasis fa-brain fa-3x"></i
+              ></a>
+              <div class="ms-4">
+                <h2>Digital transform</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Necessitatibus et illum fuga, quae iure quos reprehenderit
+                  deleniti fugit nulla facere voluptates omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 shadow-lg p-3 ms-5 media"
+            style="width: 45%"
+          >
+            <div class="d-flex medias align-items-center">
+              <a href=""
+                ><i class="fa-solid text-info-emphasis fa-brain fa-3x"></i
+              ></a>
+              <div class="ms-4">
+                <h2>Digital transform</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Necessitatibus et illum fuga, quae iure quos reprehenderit
+                  deleniti fugit nulla facere voluptates omnis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mt-5">
+        <div class="clients">
+          <h2 class="fs-1 fw-bold text-info-emphasis">clients</h2>
+          <p class="w-50">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
+            impedit explicabo dicta facere harum perspiciatis soluta quis nemo
+            vero voluptatibus?
+          </p>
+        </div>
+        <div class="client-logo row mt-5">
+          <div class="col-12 col-md-2">
+            <img class="w-100" src="./image/clients/client-1.png" alt="" />
+          </div>
+          <div class="col-12 col-md-2">
+            <img class="w-100" src="./image/clients/client-2.png" alt="" />
+          </div>
+          <div class="col-12 col-md-2">
+            <img class="w-100" src="./image/clients/client-3.png" alt="" />
+          </div>
+          <div class="col-12 col-md-2">
+            <img class="w-100" src="./image/clients/client-4.png" alt="" />
+          </div>
+          <div class="col-12 col-md-2">
+            <img class="w-100" src="./image/clients/client-5.png" alt="" />
+          </div>
+          <div class="col-12 col-md-2">
+            <img class="w-100" src="./image/clients/client-6.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="bg-info-subtle mt-5">
+        <div class="call container py-5 text-info-emphasis">
+          <h2 class="fw-bold">Call to action</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+            dolor.
+          </p>
+          <button class="btn bg-warning-subtle text-info-emphasis px-3 py-2">
+            Call to action
+          </button>
+        </div>
+      </section>
+      <section class="our-team container mt-5">
+        <h2 class="fs-2 fw-bold text-info-emphasis">Our Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+          alias?
+        </p>
+        <div class="cards row">
+          <div class="col-12 col-md-3">
+            <div class="card text-center p-4">
+              <img
+                src="./image/testimonial-1.jpg"
+                class="card-img-top rounded-circle w-25 mx-auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="fw-semibold text-info-emphasis">Joon Hood</h3>
+                <p>Lorem ipsum dolor sit amet !</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card text-center p-4">
+              <img
+                src="./image/testimonial-2.jpg"
+                class="card-img-top rounded-circle w-25 mx-auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="fw-semibold text-info-emphasis">Joon Hood</h3>
+                <p>Lorem ipsum dolor sit amet !</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card text-center p-4">
+              <img
+                src="./image/testimonial-3.jpg"
+                class="card-img-top rounded-circle w-25 mx-auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="fw-semibold text-info-emphasis">Joon Hood</h3>
+                <p>Lorem ipsum dolor sit amet !</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="card text-center p-4">
+              <img
+                src="./image/testimonial-4.jpg"
+                class="card-img-top rounded-circle w-25 mx-auto"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="fw-semibold text-info-emphasis">Joon Hood</h3>
+                <p>Lorem ipsum dolor sit amet !</p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="contact-us container">
+        <h2 class="fs-1 fw-bold text-info-emphasis">contact-us</h2>
+        <p class="w-50">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse possimus
+          atque quaerat cupiditate aliquid eos fuga illum earum cumque saepe.
+        </p>
+        <div class="row mt-5">
+          <div class="col-12 col-md-4">
+            <div class="contact d-flex align-items-center">
+                <i class="fa-solid fa-phone fa-2x text-info-emphasis mb-3"></i>
+              <div class="ps-3 text-info-emphasis">
+                <h2 class="fs-4">Phone Number</h2>
+                <p>+77 0000 0000</p>
+              </div>
+            </div>
+            <div class="contact d-flex align-items-center">
+                <i class="fa-solid fa-envelope fa-2x text-info-emphasis mb-3"></i>
+              <div class="ps-3 text-info-emphasis">
+                <h2 class="fs-4">Email</h2>
+                <p>Info@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact d-flex align-items-center">
+                <i class="fa-solid fa-location-dot fa-2x text-info-emphasis mb-3"></i>
+              <div class="ps-3 text-info-emphasis">
+                <h2 class="fs-4">Address</h2>
+                <p>A 108 adam street, new work</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-8">
+            <form class="row">
+              <div class="mb-3 col-6">
+                
+                <input placeholder="your name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3 col-6">
+                <input type="email" class="form-control" placeholder="Your email" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="password">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your text" rows="3"></textarea>
+              </div>
+              
+              <button type="submit" class="btn bg-warning w-25 mb-5 ms-3">Sent Massage</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
