@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Films production</title>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#FECC02",
+              secondary: "#131313",
+              tertiary: "#4E4E4E",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <!-- start nav section -->
+      <nav class="bg-white fixed left-0 top-0 right-0">
+        <div class="container mx-auto">
+          <div class="nav-section md:flex justify-center md:justify-between items-center h-20">
+            <div class="logo">
+              <h2 class="text-4xl font-bold">Films production</h2>
+            </div>
+            <div class="nav-items">
+              <ul class="flex gap-5 font-semibold">
+                <li>About US</li>
+                <li>our Movies</li>
+                <li>Services</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- start banner section -->
+      <section>
+        <div
+          class="banner bg-[url('./images/banner.jpg')] h-screen bg-cover pt-20"
+        >
+          <div class="container mx-auto h-full flex items-center">
+            <div class="text-white">
+              <h4 class="text-xl font-semibold">Movie production studio</h4>
+              <h1 class="text-7xl font-bold">
+                Films MAde to <br />
+                Perfection
+              </h1>
+              <p class="mt-5 w-3/4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <button
+                class="border-2 px-6 py-3 mt-5 font-semibold hover:border-orange-400 hover:shadow-2xl hover:shadow-orange-400 transition-all"
+              >
+                Discover More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- start main -->
+    <main>
+      <section class="container mx-auto">
+        <div class="about-us border-2 border-black my-40">
+          <div class="about-container grid md:grid-cols-2">
+            <div class="image md:p-16">
+              <img class="" src="./images/camera-man.jpg" alt="" />
+              <h2
+                class="text-center p-4 shadow-lg w-3/4 mx-auto text-xl bg-white -mt-8 relative font-bold rounded-xl"
+              >
+                23 YEARS of EXPERIENCE
+              </h2>
+            </div>
+            <div class="about-title md:p-12">
+              <h5 class="font-bold">ABOUT US</h5>
+              <h2 class="text-7xl font-bold">
+                FIlming Experience <br />Just Got better
+              </h2>
+              <p class="w-3/4 mt-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus magnam enim maiores molestias laboriosam totam
+                corporis libero maxime repudiandae voluptatum illum eius dicta
+                voluptas optio voluptatem quibusdam dolores possimus asperiores
+                earum, eaque esse? Reprehenderit, dolore!
+              </p>
+              <button
+                class="border-2 mt-8 px-6 py-3 font-semibold border-black transition-all"
+              >
+                Discover More
+              </button>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-3 p-16">
+            <div class="space-y-4">
+              <div class="h-2 bg-black w-3/4"></div>
+              <h2 class="text-5xl font-bold">OUR VISIOn</h2>
+              <p class="w-3/4">
+                Lorem ipsum dolor sit amet, consectetur elit. Ut elit tellus,
+                luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="space-y-4">
+              <div class="h-2 bg-black w-3/4"></div>
+              <h2 class="text-5xl font-bold">OUR Mission</h2>
+              <p class="w-3/4">
+                Lorem ipsum dolor sit amet, consectetur elit. Ut elit tellus,
+                luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="space-y-4">
+              <div class="h-2 bg-black w-3/4"></div>
+              <h2 class="text-5xl font-bold">OUR Motto</h2>
+              <p class="w-3/4">
+                Lorem ipsum dolor sit amet, consectetur elit. Ut elit tellus,
+                luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- movie collection -->
+      <section class="bg-tertiary pb-10">
+        <div class="container mx-auto">
+          <div class="md:flex justify-between items-center text-white">
+            <div class="my-20">
+              <p class="font-semibold">OUR MOVIES</p>
+              <h1 class="text-6xl font-bold">Movie collection</h1>
+            </div>
+            <div>
+              <button class="border-2 px-6 py-3 text-lg font-semibold">
+                See More Movies
+              </button>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-4 gap-20 ">
+            <div class="border-2 p-5">
+              <img src="./images/tenet.jpg" alt="" />
+            </div>
+            <div class="border-2 p-5">
+              <img src="./images/interstellar.jpg" alt="" />
+            </div>
+            <div class="border-2 p-5">
+              <img src="./images/inception.jpg" alt="" />
+            </div>
+            <div class="border-2 p-5">
+              <img src="./images/fractured.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service section -->
+      <section class="container mx-auto">
+        <div class="services my-20">
+          <div class="service-header text-center">
+            <p class="font-semibold text-2xl">services</p>
+            <h1 class="text-7xl font-bold">what we offer</h1>
+          </div>
+          <div class="grid md:grid-cols-4 gap-3 my-16">
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/camera.png" alt="">
+              <h3 class="text-2xl font-bold">movies director</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/3d-glasss.png" alt="">
+              <h3 class="text-2xl font-bold">3D MOVIES</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/director-chair.png" alt="">
+              <h3 class="text-2xl font-bold">Film maker</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/film.png" alt="">
+              <h3 class="text-2xl font-bold">Studio Production</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/theater.png" alt="">
+              <h3 class="text-2xl font-bold">Drama Movies</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/rim.png" alt="">
+              <h3 class="text-2xl font-bold">Rolling Production</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/cut-board.png" alt="">
+              <h3 class="text-2xl font-bold">Movie Production</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            <div class="border-2 border-black p-4 text-center space-y-3">
+                <img class="w-1/4 mx-auto" src="./images/icons/count-down.png" alt="">
+              <h3 class="text-2xl font-bold">actor action</h3>
+              <p class="text-xl">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget. </p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- start footer -->
+
+    <footer class="footer-bg bg-[url('./images/footer-bg.jpg')] text-white text-center">
+      <div class=" p-20">
+        <h2 class="text-6xl font-bold">Films production</h2>
+        <h3 class="text-2xl font-semibold mt-4">next level experience</h3>
+        <p class="mt-8">Feugiat nibh litora semper proin nullam facilisi  <br>
+          volutpat ex ullamcorper.</p>
+      </div>
+      <p class="pb-8">Copyright © 2021 Jhaka Naka Production, All rights reserved. Present by Mir Hussain</p>
+    </footer>
+  </body>
+</html>
